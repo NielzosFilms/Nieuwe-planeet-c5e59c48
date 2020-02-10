@@ -1,0 +1,3 @@
+ALTER TABLE `sterrenstelsel`.`planeten` 
+ADD COLUMN `id` INT NOT NULL AUTO_INCREMENT FIRST,
+ADD PRIMARY KEY (`id`);
